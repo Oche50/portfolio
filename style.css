@@ -9,6 +9,7 @@
 }
 html{
     font-size: 10px;
+    scroll-behavior: smooth;
    
 }
 a{
@@ -86,6 +87,7 @@ p{
 #header .header{
     min-height: 8vh;
     background-color:rgba(31,30,30,0.24);
+    transition: .3s ease background-color;
 
 }
 #header .nav-bar{
@@ -278,6 +280,10 @@ p{
     margin: 0 auto;
     padding: 100px 0;
 
+}
+#services .service-top{
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 #services .service-top p{
@@ -701,6 +707,7 @@ h1 .section-title{
         width: fit-content;
         background-color: transparent;
     }
+   
     #header .nav-list ul li{
         display: inline-block;
     }
